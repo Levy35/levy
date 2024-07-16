@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import todo from "../../Assets/Projects/todo.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import gym from "../../Assets/Projects/gym.png";
 
 function Projects() {
   return (
@@ -23,23 +23,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={todo}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="To Do List"
+              description="I created this to-do list as an organizational tool to outline tasks and responsibilities that need to be completed within a specific timeframe. It helps me prioritize and manage my workload by listing each task, often with associated deadlines or levels of importance. By breaking down larger projects into manageable steps, the to-do list enhances productivity and efficiency, ensuring that nothing is overlooked. It also provides a sense of accomplishment as items are checked off upon completion, contributing to better time management and reduced stress."
+              ghLink="https://github.com/Levy35/To_Do_List"
+              demoLink="https://to-do-list-34.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={gym}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Gym"
+              description="The creation of this gym website represents a pivotal step in my professional development, driven by a desire to expand my skills and expertise in web development. This prototype showcases my dedication to mastering industry-standard practices and delivering user-friendly digital experiences. Should you require a bespoke website for your business or personal endeavors, I am eager to collaborate, leveraging my technical proficiency and creative insights to meet your specific needs effectively."
+              ghLink="https://github.com/Levy35/Gym"
+              demoLink="https://gym-a.vercel.app/"
             />
           </Col>
 
