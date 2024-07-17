@@ -45,7 +45,7 @@ function Projects() {
               imgPath={edoc}
               isBlog={false}
               title="EDoc "
-              description="This web project was developed for e-channeling purposes, enabling clients and patients of medical establishments, such as clinics and hospitals, to request doctor appointments online. It also assists doctors in managing their appointment schedules. The system efficiently organizes and submits appointment requests to the selected doctor. However, please note that the site is currently non-responsive."
+              description="This web project was developed for e-channeling purposes, enabling clients and patients of medical establishments, such as clinics and hospitals, to request doctor appointments online. It also assists doctors in managing their appointment schedules. The system efficiently organizes and submits appointment requests to the selected doctor. However, please note that the site is currently non-responsive. This was a project to Develop my PHP Knowledge. "
               ghLink="https://github.com/Levy35/edoc"
               demoLink="https://edoclevi.vercel.app/"              
             />
